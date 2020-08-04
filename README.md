@@ -1,0 +1,2 @@
+# brain-games - набор консольных мини игр
+[![Maintainability](https://api.codeclimate.com/v1/badges/fe170970f50f18def595/maintainability)](https://codeclimate.com/github/springmelody/python-project-lvl1/maintainability)
