@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "springmelody_brain_games"
-version = "1.0.0"
+version = "1.0.1"
 description = "first hexlet python project brain-games"
 repository = "https://github.com/springmelody/python-project-lvl1"
 classifiers = [
@@ -11,7 +11,7 @@ authors = ["Aleksandr Zakharov <aleksandrzakharov91@gmail.com>"]
 packages = [{ include = "brain_games" },]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
