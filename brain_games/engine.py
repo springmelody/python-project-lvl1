@@ -1,7 +1,7 @@
 """Engine game."""
 import prompt
 
-round_count = 3
+ROUNDS_COUNT = 3
 
 
 def play_game(description, get_game_data):
@@ -11,9 +11,9 @@ def play_game(description, get_game_data):
     name = prompt.string('May I have your name? ')
     print('Hello, {name}!\n'.format(name=name))
     counter = 0
-    while counter < round_count:
+    while counter < ROUNDS_COUNT:
         question, correct_answer = get_game_data()
-        print(f'Question: {question} ')
+        print(f'Question: {question}')
         player_answer = prompt.string('Your answer ')
         if correct_answer == player_answer:
             print('\nCorrect!\n')
