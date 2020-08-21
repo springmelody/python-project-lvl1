@@ -6,8 +6,8 @@ from brain_games.games import prime
 
 
 def main():
-    """Run function."""
-    engine.play_game(prime.DESCRIPTION, prime.get_game_data)
+    """Run prime."""
+    engine.play_game(prime)
 
 
 if __name__ == '__main__':

@@ -6,8 +6,8 @@ from brain_games.games import progression
 
 
 def main():
-    """Run function."""
-    engine.play_game(progression.DESCRIPTION, progression.get_game_data)
+    """Run progression game."""
+    engine.play_game(progression)
 
 
 if __name__ == '__main__':

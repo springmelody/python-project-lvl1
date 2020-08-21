@@ -6,8 +6,8 @@ from brain_games.games import calc
 
 
 def main():
-    """Run function."""
-    engine.play_game(calc.DESCRIPTION, calc.get_game_data)
+    """Run calc game."""
+    engine.play_game(calc)
 
 
 if __name__ == '__main__':

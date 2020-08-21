@@ -4,15 +4,15 @@ import prompt
 ROUNDS_COUNT = 3
 
 
-def play_game(description, get_game_data):
+def play_game(game):
     """Game engine logic."""
     print('Welcome to the Brain Games!')
-    print(f'{description}\n')
+    print(f'{game.DESCRIPTION}\n')
     name = prompt.string('May I have your name? ')
     print('Hello, {name}!\n'.format(name=name))
     counter = 0
     while counter < ROUNDS_COUNT:
-        question, correct_answer = get_game_data()
+        question, correct_answer = game.get_game_data()
         print(f'Question: {question}')
         player_answer = prompt.string('Your answer ')
         if correct_answer == player_answer:
